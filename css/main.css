@@ -6,3 +6,55 @@
     line-height: 20px;
     box-sizing: border-box;
 }
+.main-container {
+    display: inline-block;
+    background-color: lightgray;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px gray;
+    border-bottom: solid 2px gray;
+}
+.header {
+    display: inline-block;
+    margin: 10px;
+    border-top: solid 2px gray;
+    border-left: solid 2px gray;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+}
+.mine-counter {
+    display: inline-block;
+}
+.smiley {
+    display: inline-block;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px gray;
+    border-bottom: solid 2px gray;
+}
+.timer {
+    display: inline-block;
+}
+.board {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0;
+    border-top: solid 2px gray;
+    border-left: solid 2px gray;
+    border-right: solid 2px white;
+    border-bottom: solid 2px white;
+}
+.board-square {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: lightgray;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    border-right: solid 2px gray;
+    border-bottom: solid 2px gray;
+    outline: none;
+}
+.board-square:active {
+    box-shadow: 0px 0px 5px 0px #000 inset;  
+}
